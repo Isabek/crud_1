@@ -6,5 +6,6 @@ CREATE TABLE  `customers` (
 `sex` ENUM ('male', 'female') NULL ,
 `birthday` datetime DEFAULT NULL,
 `email` VARCHAR( 100 ) NOT NULL ,
-`mobile` VARCHAR( 100 ) NOT NULL
+`mobile` VARCHAR( 100 ) NOT NULL,
+`password` VARCHAR( 100 ) NOT NULL
 ) ENGINE = INNODB;
